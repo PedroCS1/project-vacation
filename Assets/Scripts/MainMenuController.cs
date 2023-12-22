@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MainMenuController : MonoBehaviour
@@ -14,18 +15,15 @@ public class MainMenuController : MonoBehaviour
         Initialize();
     }
 
-    private async void Initialize()
+    private void Initialize()
     {
-        await Task.Yield();
-        await Task.Yield();
-        await Task.Yield();
-        await Task.Yield();
         _musicSlider.value = ServiceManager.Instance.GameAudio.GetMusicVolume();
         _sfxSlider.value = ServiceManager.Instance.GameAudio.GetSFXVolume();
     }
 
-    public void StartGame()
+    public void OnStartGameClick()
     {
+        SceneManager.LoadScene(SceneNames.DIALOGUE_TEST);
     }
 
     public void ExitGame()

@@ -69,6 +69,11 @@ public class AudioService : ServiceBase
         AudioMixer.SetFloat("SFXVolume", VolumeTodB(SFXVolume));
     }
 
+    public void StopSFXAudio()
+    {
+        _SFXAudioSource.Stop();
+    }
+
     private void SaveAudioSettings()
     {
         PlayerPrefs.SetFloat("MusicVolume", MusicVolume);
