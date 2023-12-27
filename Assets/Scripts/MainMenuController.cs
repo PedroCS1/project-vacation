@@ -23,7 +23,7 @@ public class MainMenuController : MonoBehaviour
 
     public void OnStartGameClick()
     {
-        SceneManager.LoadScene(SceneNames.DIALOGUE_TEST);
+        SceneManager.LoadScene(SceneNames.INGAME);
     }
 
     public void ExitGame()

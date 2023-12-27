@@ -17,5 +17,5 @@ MonoBehaviour:
   DialogueEntries:
   - Speaker: Costumer1
     DialogueText: I'm not interested in chocolates at all.
-    DialogueAudio: {fileID: 0}
+    DialogueAudio: {fileID: 8300000, guid: 1d9c2abc51757644b9f7597daa8c5b3e, type: 3}
   Choices: []

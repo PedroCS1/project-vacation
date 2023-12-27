@@ -17,14 +17,14 @@ MonoBehaviour:
   DialogueEntries:
   - Speaker: Player
     DialogueText: Hi there, how can I help you?
-    DialogueAudio: {fileID: 0}
+    DialogueAudio: {fileID: 8300000, guid: 1d9c2abc51757644b9f7597daa8c5b3e, type: 3}
   - Speaker: Costumer1
     DialogueText: I would really like to rent a movie.
-    DialogueAudio: {fileID: 0}
+    DialogueAudio: {fileID: 8300000, guid: 1d9c2abc51757644b9f7597daa8c5b3e, type: 3}
   Choices:
   - ChoiceText: Sure
     NextDialogue: {fileID: 11400000, guid: 0bf4bb71e258512499bac1f8080c7354, type: 2}
-    ChoiceAudio: {fileID: 0}
+    ChoiceAudio: {fileID: 8300000, guid: 1d9c2abc51757644b9f7597daa8c5b3e, type: 3}
   - ChoiceText: Sorry, we're closed ( exit )
     NextDialogue: {fileID: 0}
-    ChoiceAudio: {fileID: 0}
+    ChoiceAudio: {fileID: 8300000, guid: 1d9c2abc51757644b9f7597daa8c5b3e, type: 3}

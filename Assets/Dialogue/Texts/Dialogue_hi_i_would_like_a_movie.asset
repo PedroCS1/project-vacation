@@ -17,14 +17,14 @@ MonoBehaviour:
   DialogueEntries:
   - Speaker: Costumer1
     DialogueText: Me and my family decided to watch a movie this weekend!
-    DialogueAudio: {fileID: 0}
+    DialogueAudio: {fileID: 8300000, guid: 1d9c2abc51757644b9f7597daa8c5b3e, type: 3}
   Choices:
   - ChoiceText: Sure, what kind of movie you have in mind?
     NextDialogue: {fileID: 11400000, guid: 5bd9ffa5b65523a4ea20db6d89ab189d, type: 2}
-    ChoiceAudio: {fileID: 0}
+    ChoiceAudio: {fileID: 8300000, guid: efacfecded821754cb7cb38cfdcfb372, type: 3}
   - ChoiceText: I have a bunch of chocolates here
     NextDialogue: {fileID: 11400000, guid: 183783fca6ac4ec4ead32f4f7d691752, type: 2}
-    ChoiceAudio: {fileID: 0}
+    ChoiceAudio: {fileID: 8300000, guid: 1d9c2abc51757644b9f7597daa8c5b3e, type: 3}
   - ChoiceText: Sorry, we're closed ( exit )
     NextDialogue: {fileID: 0}
-    ChoiceAudio: {fileID: 0}
+    ChoiceAudio: {fileID: 8300000, guid: 1d9c2abc51757644b9f7597daa8c5b3e, type: 3}
